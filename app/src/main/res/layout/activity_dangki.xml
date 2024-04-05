@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/orange">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="12dp"
+        android:text="Cùng Học Nấu Ăn"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dangki"
+        android:layout_above="@+id/KhungDangKy"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/KhungDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:hint="@string/username"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:hint="@string/password"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/passwordag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:hint="@string/passwordag"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:hint="@string/phonenumber"
+            android:padding="10dp"
+            android:textColorHint="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btndangky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dangki"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btntoidangnhap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toidangnhap"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MỖI NGÀY MỘT MÓN NGON"
+        android:layout_below="@+id/KhungDangKy"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
+</RelativeLayout>

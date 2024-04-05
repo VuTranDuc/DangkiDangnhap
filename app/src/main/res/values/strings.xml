@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Signin_Login</string>
+    <string name="username">Tên người dùng</string>
+    <string name="password">Mật khẩu</string>
+    <string name="passwordag">Nhập lại mật khẩu</string>
+    <string name="phonenumber">Số điện thoại</string>
+    <string name="dangki">Đăng ký</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="toidangnhap">Tới đăng nhập</string>
+</resources>
